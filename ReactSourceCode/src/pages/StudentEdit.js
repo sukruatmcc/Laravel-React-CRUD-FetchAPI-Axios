@@ -6,8 +6,8 @@ const StudentEdit = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
-    description: "",
-    price: "",
+    course: "",
+    phone: "",
   });
 
   const handleChange = (e) => {
